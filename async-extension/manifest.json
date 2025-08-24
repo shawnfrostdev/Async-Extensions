@@ -9,7 +9,7 @@
             "version": "1.0.1",
             "developer": "DabYeet Team",
             "description": "High-resolution music streaming extension for DAB.YEET.SU - Stream and download music in up to 24bit/192kHz quality",
-            "downloadPath": "extensions/dabyeet-v1.apk",
+            "downloadPath": "extensions/dabyeet-v1.0.1.apk",
             "iconUrl": "icons/dabyeeticon.png",
             "sourceUrl": "https://github.com/dabyeet/async-extension",
             "permissions": ["INTERNET", "ACCESS_NETWORK_STATE"],
