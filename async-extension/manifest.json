@@ -6,7 +6,7 @@
         {
             "id": "com.dabyeet.async.extension",
             "name": "Async: Dab.yeet.su",
-            "version": 1,
+            "version": "1.0.1",
             "developer": "DabYeet Team",
             "description": "High-resolution music streaming extension for DAB.YEET.SU - Stream and download music in up to 24bit/192kHz quality",
             "downloadPath": "extensions/dabyeet-v1.apk",
@@ -24,7 +24,19 @@
             ],
             "changelog": [
                 {
-                    "version": 1,
+                    "version": "1.0.1",
+                    "date": "2025-01-27",
+                    "changes": [
+                        "Fixed stream URL retrieval - now provides real streaming URLs",
+                        "Added comprehensive response parsing for multiple API formats",
+                        "Improved error handling with specific exception types",
+                        "Added extensive debug logging for troubleshooting",
+                        "Support for multiple audio formats (mp3, m4a, aac, flac, wav)",
+                        "Enhanced network timeout and error handling"
+                    ]
+                },
+                {
+                    "version": "1.0.0",
                     "date": "2025-08-23",
                     "changes": [
                         "Initial release",
