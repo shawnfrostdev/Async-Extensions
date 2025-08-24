@@ -6,10 +6,10 @@
         {
             "id": "com.dabyeet.async.extension",
             "name": "Async: Dab.yeet.su",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "developer": "DabYeet Team",
-            "description": "High-resolution music streaming extension for DAB.YEET.SU - Stream and download music in up to 24bit/192kHz quality",
-            "downloadPath": "extensions/dabyeet-v1.0.1.apk",
+            "description": "High-resolution music streaming extension for DAB.YEET.SU - Stream and download music in up to 24bit/192kHz quality. Fixed streaming URLs!",
+            "downloadPath": "extensions/dabyeet-v1.0.2.apk",
             "iconUrl": "icons/dabyeeticon.png",
             "sourceUrl": "https://github.com/dabyeet/async-extension",
             "permissions": ["INTERNET", "ACCESS_NETWORK_STATE"],
@@ -20,9 +20,22 @@
                 "Album Art Download",
                 "Artist & Album Metadata",
                 "Configurable Quality Settings",
-                "Network Optimization"
+                "Network Optimization",
+                "Working Stream URLs"
             ],
             "changelog": [
+                {
+                    "version": "1.0.2",
+                    "date": "2025-08-24",
+                    "changes": [
+                        "FIXED: Stream URL fetching now works correctly",
+                        "FIXED: Corrected API parameter name from 'track_id' to 'trackId'",
+                        "IMPROVED: Better error handling and debugging",
+                        "ADDED: Comprehensive API endpoint testing",
+                        "DOCUMENTED: Correct API usage patterns",
+                        "Stream URLs now properly fetch from Qobuz CDN"
+                    ]
+                },
                 {
                     "version": "1.0.1",
                     "date": "2025-01-27",
