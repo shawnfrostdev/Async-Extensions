@@ -1,0 +1,11 @@
+# Ignore everything at the root level
+*
+
+# But don't ignore the async-extension folder (the actual extension repository)
+!async-extension/
+
+# Don't ignore this .gitignore file itself
+!.gitignore
+
+# Don't ignore README if it exists
+!README.md 

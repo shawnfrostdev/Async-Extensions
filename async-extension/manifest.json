@@ -1,0 +1,40 @@
+{
+    "name": "DAB.YEET.SU Extension Repository",
+    "description": "High-resolution music streaming extensions for Async Music Player",
+    "version": 1,
+    "extensions": [
+        {
+            "id": "com.dabyeet.async.extension",
+            "name": "Async: Dab.yeet.su",
+            "version": 1,
+            "developer": "DabYeet Team",
+            "description": "High-resolution music streaming extension for DAB.YEET.SU - Stream and download music in up to 24bit/192kHz quality",
+            "downloadPath": "extensions/dabyeet-v1.apk",
+            "iconUrl": "icons/dabyeeticon.png",
+            "sourceUrl": "https://github.com/dabyeet/async-extension",
+            "permissions": ["INTERNET", "ACCESS_NETWORK_STATE"],
+            "minAppVersion": 1,
+            "features": [
+                "High-Resolution Audio (24bit/192kHz)",
+                "Search with Pagination",
+                "Album Art Download",
+                "Artist & Album Metadata",
+                "Configurable Quality Settings",
+                "Network Optimization"
+            ],
+            "changelog": [
+                {
+                    "version": 1,
+                    "date": "2025-08-23",
+                    "changes": [
+                        "Initial release",
+                        "Support for DAB.YEET.SU API",
+                        "High-resolution audio streaming",
+                        "Search functionality",
+                        "Album art and metadata support"
+                    ]
+                }
+            ]
+        }
+    ]
+} 
